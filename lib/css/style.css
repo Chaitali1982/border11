@@ -1,0 +1,264 @@
+body { margin:0; padding:0; background-color: tomato;}
+#map { position: absolute; top:80px; bottom:0; right:0; left:0;  }
+
+
+
+.modal-content{
+  background-color:#e7e7e7;
+
+}
+.re{
+  margin-left: 65px;
+}
+
+.heading h4{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight:bold;
+font-style: italic;
+font-size: 25px;
+position: absolute;
+bottom: 5px;
+right: 13px;
+z-index: 700;
+color:blue;
+}
+ 
+
+div.modal-body{
+
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight:lighter;
+animation: 0.7s drop;
+min-width: 200px;
+max-width: 400px;
+max-height: 600px;
+overflow: auto;
+}
+
+.modal{
+  height:400px;
+  width:600px;
+}
+
+	select {
+ 
+  outline: 0;
+  color: #e0e0e0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+
+
+
+.select {
+  color: #e0e0e0;
+  position: relative;
+  display: flex;
+  width: 23em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+
+}
+#submit{
+  position: absolute;
+    top: 200px;
+    left: 13px;
+    z-index: 550;
+    height:35px;
+    width:35px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 25px;
+    box-shadow: 0 3px #999;
+}
+
+#submit1{
+  position: absolute;
+    top: 250px;
+    left: 13px;
+    z-index: 550;
+    height:35px;
+    width:35px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 25px;
+    box-shadow: 0 3px #999;
+}
+#airport{
+  position: absolute;
+    top: 300px;
+    left: 13px;
+    z-index: 550;
+    height:35px;
+    width:35px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 25px;
+    box-shadow: 0 3px #999;
+ 
+}
+a i {
+  text-align: center;
+  border-radius: 50%;
+  border: solid black;
+  padding: 10px;
+ 
+  text-align:center
+}
+#remove{
+  position: absolute;
+    top: 350px;
+    left: 13px;
+    z-index: 550;
+    height:35px;
+    width:35px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+
+}
+#weather{
+  position: absolute;
+    top: 400px;
+    left: 13px;
+    z-index: 550;
+    height:35px;
+    width:35px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  
+}
+
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+
+
+#country_flag,#country_flag1,#countr_flag,#country_flag3{
+  display: block;
+  margin-left:15px;
+ 
+  width: 50%;
+
+}
+
+#demo{
+  visibility: hidden;
+}
+.navbar {
+  
+  background-color: #333;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  margin: 0px;
+  padding:4px;
+  display: inline;
+  text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 450px) and (min-width: 50px) {
+  .navbar{   
+     flex-direction: column;
+     
+   
+  
+    }
+   
+    #map { position: absolute; top:400px; bottom:0; right:0; left:0;min-height: 100%;
+      min-width: 100%;
+      width: auto;
+      height: auto;
+    
+       }
+    
+
+.re{
+  display: block;
+
+ margin-left: 10px;
+ padding: 0px;
+}
+
+  }
+
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 450px)  {
+  .navbar{   
+background-color:  #333;
+  }
+  #map { position: absolute; top:60px; bottom:0; right:0; left:0; }
+  .re{
+
+
+    margin-left: 30px;
+   }
+
+
+   #modal-body1{
+     float:left;
+   }
+  }
+
+  
+  @media only screen and (min-width: 1200px) {
+    .navbar{   
+background-color:  #333;
+  }
+ #map { position: absolute; top:60px; bottom:0; right:0; left:0; }
+ .re{
+
+
+  margin-left: 20px;
+ }
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 99px)  {
+    .navbar{   
+   background-color:  #333;
+   }
+     #map { position: absolute; top:60px; bottom:0; right:0; left:0; }
+     .re{
+
+
+      margin-left: 20px;
+     }
+    }
+
